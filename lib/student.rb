@@ -49,9 +49,9 @@ def self.create(name,grade)
 end
 
 def self.new_from_db(row)
-  :id=>[0],
-  :name=>[1],
-  :grade=>[2]
+   id=[0],
+   name=[1],
+   grade=[2]
   self.new(id, name, grade)
 end 
 
